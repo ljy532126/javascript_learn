@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>定义变量和判断</title>
+</head>
+<body>
+    <h1>定义变量，判断变量类型</h1>
+    <script>
+        // 数字类型
+        var num = 1;
+        console.log(num);
+        // 用typeof()函数可以查看数据类型
+        
+        console(typeof num);
+        var num2 = 'hello javascript';
+        console.log(num2);
+        // 布尔值
+        var num3 = true;
+        console.log(num3);
+        console(typeof num3);
+        // null
+        var num4 = null;
+        console.log(num4);
+        console(typeof num4);
+        // undefined
+        var num5 = undefined;
+        console.log(num5);
+        console(typeof num5);
+        // 对象
+        var person ={
+            name:'liaojinyou',
+            sex:'男',
+            age:'20'
+        }
+        // 用instanceof()判断是否为对象
+        console.log(person instanceof Array);//返回true或false
+        // 数组
+        //简单数组
+        var arr = [1,2,3,4,'liaojinyou'];
+        // 复杂数组
+        var arr2 = [
+            {
+                name:'liaojinyou',
+                age:20,
+            },{
+                name:'liaojinyou2',
+                age:20,
+            }
+            
+        ]
+    </script>
+</body>
+</html>
